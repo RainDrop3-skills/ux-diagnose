@@ -15,12 +15,12 @@ Claude Code 개인 스킬 폴더에 넣습니다.
 
 ```bash
 # macOS / Linux / Git Bash
-git clone <이 레포 주소> ~/.claude/skills/ux-diagnose
+git clone https://github.com/RainDrop3-skills/ux-diagnose.git ~/.claude/skills/ux-diagnose
 ```
 
 ```powershell
-# Windows: 다른 위치에 받아 두고 junction으로 연결
-New-Item -ItemType Junction -Path "$env:USERPROFILE\.claude\skills\ux-diagnose" -Target "<받은 폴더 경로>"
+# Windows PowerShell
+git clone https://github.com/RainDrop3-skills/ux-diagnose.git "$env:USERPROFILE\.claude\skills\ux-diagnose"
 ```
 
 자동 점검 스크립트를 쓰려면 다음이 필요합니다.
